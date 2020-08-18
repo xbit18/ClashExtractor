@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "CCBackBeat";
+    src: url("../fonts/CCBackBeatW00Light.ttf");
+}
+
+@font-face {
+    font-family: "Supercell-Magic";
+    src: url("../fonts/Supercell-magic-webfont.ttf");
+}
+html, body {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #fff;
+    font-family: 'CCBackBeat', serif;
+    font-weight: 200;
+    text-shadow: 0px 3px 11px rgba(0, 0, 2, 0.62);
+    height: 100%;
+}
+
+input{
+    margin: 8px;
+}
+.full-height {
+    height: 100vh;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 4px 2px #000, -2px 0 0 #000;
+    font-size: 40px;
+    font-family: 'Supercell-Magic', serif;
+}
+
+.margin{
+    margin-top:50px;
+}
+
+.subtitle{
+    font-size: 30px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 2px 1px #000, -1px 0 0 #000;
+}
+
+.input {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 2px 1px #000, -1px 0 0 #000;
+    display: inline-block;
+    margin: auto;
+}
+
+.submit{
+    width:auto;
+    height: 60px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.submit:active > img{
+    height: 55px;
+    outline: none;
+}
+
+.m-b-md {
+    margin-bottom: 15px;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.padding-30{
+    padding-top: 30px;
+    padding-bottom:50px;
+}
+
+#number{
+    width:30px;
+}
+
+.borders-3{
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type='number'] {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "CCBackBeat", serif
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input + label {
+    display: inline-block;
+    width: 80px;
+    height: 31px;
+    cursor: pointer;
+    background-image: url(../img/checkbox-sprite-small.png);
+    background-position: right center;
+}
+
+input[type="checkbox"]:checked + label {
+    background-position: left center;
+}
+.block{
+    display: block;
+    padding:5px;
+}
+
+.inline-block{
+    display: inline-block;
+}
